@@ -1,0 +1,39 @@
+# Python
+pycache/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+*.log
+logs/
+/media/
+/staticfiles/
+/static_root/
+
+# Testing / linters
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_S
+
+# OS
+.DS_Store
+Thumbs.dbtore
+
